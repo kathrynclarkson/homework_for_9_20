@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script>
+		var weightInPounds = prompt("Enter your weight in pounds"); 
+		var heightInInches = prompt("Enter your height in inches");
+		var weightInKilograms = weightInPounds/2.2;
+		var heightInMeters = heightInInches*0.0254;
+		var bmi = weightInKilograms/(heightInMeters*heightInMeters);
+		alert("Your bmi is " + bmi);
+	</script>
+</body>
+</html>
